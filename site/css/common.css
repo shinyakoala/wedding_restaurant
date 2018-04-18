@@ -1,0 +1,58 @@
+/*プラウザスタイルのリセット*/
+
+*{
+	margin :0;
+	padding :0;
+	-webit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box; 		/*パディングとボーダーを幅と高さに含める*/
+}
+
+/*画像の下の余白を無くす*/
+
+img{
+	vertical-align:middle;
+}
+
+/*ボタンの●を無くす。ほしいところだけ指定するようにしよう。*/
+
+li{
+	list-style-type:none;
+}
+
+/*ハイパーテキストリンク*/
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+hr{
+	margin-bottom:5px;
+	
+}
+/*clearfix*/
+
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+/*ここからindexのスタイル*/
+
+#wrapper{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+/*画像の透過効果*/
+a:hover img{
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+

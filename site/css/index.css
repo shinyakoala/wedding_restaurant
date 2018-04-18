@@ -1,0 +1,200 @@
+#menu img{
+	display: flex;
+    justify-content: flex-start;
+    margin: 2% 0 0 2%;
+}
+#menu #menu2{
+	display: flex;
+    justify-content: flex-end;
+    padding-right: 5%;
+}
+
+#menu #menu2 ul{
+    min-width: 320px;
+}
+
+#menu #menu2 ul li{
+	margin-right:2%;
+	float:left;
+}
+
+#menu #menu2 ul li a{
+	margin-left: 20px;
+	background: none;
+	color: #000000;
+	font-family: 'Gentium Basic', serif;
+	
+}
+
+#menu #menu2 ul li a:hover{
+	color: #7B7B7B;
+	
+}
+
+
+
+.globalNav{
+	margin-left:8%;
+	/*margin-bottom:5%;*/
+	overflow: hidden;
+}
+
+.globalNav li{
+	float: left;
+	padding: 10px 0;
+	border-right: 1px solid #333;
+}
+
+.globalNav li a {
+    display: block;
+	padding: 20px 30px;
+	color:#494949;
+	font-family: 'Gentium Basic', serif;
+
+}
+
+.globalNav li a:hover{
+	color: #C80002;
+	background-color:#171717;
+} 
+
+.globalNav li.active a {
+    color: #C80002;
+	background-color:#171717;
+}
+
+header{
+    width: 100%;
+	display: flex;
+    justify-content: center;
+    margin-top: 30px;
+	
+}
+header .left{
+}
+
+header .left img{
+    max-width: 810px;
+    max-height: 610px;
+}
+
+header .right{
+    display: flex;
+	flex-direction: column;
+}
+
+header .right img{
+    max-width: 405px;
+    max-height: 305px;
+        
+}
+
+
+#contents{
+	width:100%;
+}
+
+#contents .banner{
+	width:100%;
+	text-align: center;
+}
+
+#contents .banner img{
+	margin: 40px 10px;
+}
+
+#contents #topics{
+	width: 100%;
+	height: 400px;
+	padding-top: 10px;
+	background-color: #5d4c4c;
+	
+	
+}
+
+/*h2水平線*/
+h2{
+	position: relative;
+	text-align: center;
+}
+
+h2:before {
+	border-top: 1px solid;
+	content: "";
+	position:absolute;
+	top: 50%;
+	left: 0;
+	width:100%;
+}
+h2 span{
+	
+	display: inline-block;
+}
+
+#contents #topics h2{
+	margin: 10px 0 10px 0;
+	color: #FFFFFF;
+	font-family: 'Gentium Basic', serif;
+}
+
+#contents #topics p{
+	margin-top:2%;
+	margin-left: 100px;
+	font-family: 'Mutsuki';
+	
+}
+
+#contents #topics a{
+	font-size: 16px;
+	color: #FFFFFF;
+	font-family: 'Gentium Basic', serif;
+	
+}
+
+#contents #topics a:hover{
+	text-decoration: underline;
+	color:#CDCDCD;
+}
+
+#contents #recommend{
+	width: 100%;
+	height:100%;
+	padding: 30px 0;
+	background-color: #fff9f9;
+	text-align: center;
+	font-family: 'Gentium Basic', serif;
+	
+}
+
+#contents #recommend img{
+	margin:10px 50px;
+	
+}
+#contents #tel{
+	width:100%;
+	height:100%;
+	padding: 30px 0;
+	background-color:#cca9a9;
+	text-align: center;
+	font-family: 'Gentium Basic', serif;
+	
+}
+
+footer{
+	width: 100%;
+	height: 100%;
+	background-color: #3f2b2b;
+	
+}
+
+footer p{
+	padding:5px 0 5px 15px;
+	color:#FFFFFF;
+	font-family: 'Gentium Basic', serif;
+}
+
+footer span p{
+	display: inline-block;
+	font-family: 'Gentium Basic', serif;
+	margin-left: 75%;
+}
